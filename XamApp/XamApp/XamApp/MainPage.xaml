@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamApp"
+             x:Class="XamApp.MainPage">
+
+
+    <StackLayout  VerticalOptions="Center" HorizontalOptions="Center" >
+	    <Label x:Name="lbl1" Text="Welcome to Xamarin.Forms!" />
+        <Button Margin="0,10,0,10" x:Name="btn1" Text="Кнопка" Clicked="btn1_Clicked"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Ваше имя:" />
+            <Editor Margin="10,0,0,0" x:Name="txtName" Text="Админ" TextColor="Firebrick" />
+        </StackLayout>
+        <Button Margin="0,10,0,10" x:Name="btnNext" Text="Вторая страница" Clicked="btnNext_Clicked"/>
+        <Button Margin="0,10,0,10" x:Name="btnThird" Text="Третья страница" Clicked="btnThird_Clicked"/>
+
+
+    </StackLayout>
+    
+</ContentPage>
+ 

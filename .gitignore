@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/XamApp/.vs/XamApp/v15
+/XamApp/XamApp/XamApp.Android/bin/Debug
+/XamApp/XamApp/XamApp.Android/obj
+/XamApp/XamApp/XamApp.UWP/bin/x86/Debug
+/XamApp/XamApp/XamApp.UWP/obj
