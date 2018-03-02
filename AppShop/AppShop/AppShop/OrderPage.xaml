@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShop.OrderPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label Text="Корзина" HorizontalOptions="Center"/>
+            <ListView x:Name="lstOrders">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Phone.Brand}" FontSize="Large"/>
+                                    <Label Text="{Binding Phone.Model}" FontSize="Large"/>
+                                    <Label Text="{Binding Phone.Price}" FontSize="Large"/>
+                                    <Label Text="    Количество:" FontSize="Large"/>
+                                    <Label Text="{Binding Count}" FontSize="Large"/>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Продолжить покупки" FontSize="Large" Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
