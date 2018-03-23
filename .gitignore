@@ -18,3 +18,17 @@
 /TodoApp/TodoApp/TodoApp.Android/obj
 /TodoApp/TodoApp/TodoApp.UWP/bin/x86/Debug
 /TodoApp/TodoApp/TodoApp.UWP/obj
+/AppGame/AppGame/AppGame/bin/Debug/netstandard2.0
+/AppGame/AppGame/AppGame/obj
+/AppGame/AppGame/AppGame.Android/bin/Debug
+/AppGame/AppGame/AppGame.Android/obj
+/AppGame/AppGame/AppGame.UWP/bin/x86/Debug
+/AppGame/AppGame/AppGame.UWP/obj
+/GameApp/GameApp/GameApp.Android/bin/Debug
+/GameApp/GameApp/GameApp.Android/obj
+/PlayerService/packages
+/PlayerService/PlayerService/App_Data
+/PlayerService/PlayerService/bin
+/PlayerService/PlayerService/obj/Debug
+/AppGame/.vs/AppGame/v15
+/PlayerService/.vs/PlayerService/v15

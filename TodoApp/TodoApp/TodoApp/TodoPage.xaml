@@ -24,6 +24,7 @@
                 <Button Text="Удалить" Clicked="DeleteTodo" />
                 <Button Text="Отмена" Clicked="Cancel" />
             </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
